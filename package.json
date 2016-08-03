@@ -1,11 +1,13 @@
 {
   "name": "generator-zlimatic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "zlimatic yeoman generator",
   "author": "edolimburg",
   "license": "ISC",
   "keywords": [
-    "yeoman-generator", "zlimatic", "generator"
+    "yeoman-generator",
+    "zlimatic",
+    "generator"
   ],
   "dependencies": {
     "yeoman-generator": "^0.24.1"
