@@ -1,0 +1,16 @@
+{
+  "name": "generator-zlimatic",
+  "version": "0.0.1",
+  "description": "zlimatic yeoman generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "edolimburg",
+  "license": "ISC",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  }
+}

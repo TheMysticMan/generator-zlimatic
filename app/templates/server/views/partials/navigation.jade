@@ -1,0 +1,16 @@
+section(ng-controller="navigationController")
+    nav.navbar.navbar-default
+        .container-fluid
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header
+                button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(ui-sref='home') <%= app.name %>
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                ul.nav.navbar-nav
+                    li(ng-repeat="page in pages | orderBy:'index'" ng-class="{'active':isActive(page.state)}")
+                        a(ui-sref="{{page.state}}") {{page.displayValue}}

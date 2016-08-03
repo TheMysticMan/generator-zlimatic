@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div(ng-app="<%= app.name %>")
+    div(ng-controller="MainController")
+        navigation
+        div(ui-view)
+        div#page-loader
+            .center
+                .loader

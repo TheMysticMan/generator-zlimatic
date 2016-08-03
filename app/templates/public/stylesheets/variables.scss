@@ -1,0 +1,7 @@
+@import '../../node_modules/sass-material-colors/sass/sass-material-colors';
+
+$navbar-default-bg : map-get(map-get($material-colors, 'cyan'), '800');
+$navbar-default-link-hover-bg : map-get(map-get($material-colors, 'cyan'), '900');
+$navbar-default-link-color : white;
+$navbar-default-link-hover-color: white;
+$navbar-default-link-active-color: white;
